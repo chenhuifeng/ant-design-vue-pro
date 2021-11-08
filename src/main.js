@@ -32,6 +32,8 @@ Vue.component('page-header-wrapper', PageHeaderWrapper)
 
 window.umi_plugin_ant_themeVar = themePluginConfig.theme
 
+console.log(window.umi_plugin_ant_themeVar)
+
 new Vue({
   router,
   store,
